@@ -1,7 +1,7 @@
 import $ from 'cafy';
 import { ID } from '../../../../misc/cafy-id';
 import define from '../../define';
-import { createImportFollowingJob } from '../../../../queue';
+import { createImportBlockingJob } from '../../../../queue';
 import ms = require('ms');
 import { ApiError } from '../../error';
 import { DriveFiles } from '../../../../models';
@@ -55,5 +55,5 @@ export default define(meta, async (ps, user) => {
 	if (file.size > 50000) throw new ApiError(meta.errors.tooBigFile);
 	if (file.size === 0) throw new ApiError(meta.errors.emptyFile);
 
-	createImportFollowingJob(user, file.id);
+	createImportBlockingJob(user, file.id);
 });
