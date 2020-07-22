@@ -185,14 +185,14 @@ async function detectImageSize(path: string): Promise<{
  * Calculate average color of image
  */
 function getBlurhash(path: string): Promise<string> {
-    return new Promise((resolve, reject) => {
-        sharp(path)
-            .raw()
-            .ensureAlpha()
-            .resize(64, 64, { fit: 'inside' })
-            .toBuffer((err, buffer, { width, height }) => {
-                if (err) return reject(err);
-                resolve(encode(new Uint8ClampedArray(buffer), width, height, 7, 7));
-            });
-    });
+	return new Promise((resolve, reject) => {
+		sharp(path)
+			.raw()
+			.ensureAlpha()
+			.resize(64, 64, { fit: 'inside' })
+			.toBuffer((err, buffer, { width, height }) => {
+				if (err) return reject(err);
+				resolve(encode(new Uint8ClampedArray(buffer), width, height, 7, 7));
+			});
+	});
 }
