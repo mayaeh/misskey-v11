@@ -44,7 +44,7 @@ export default Vue.extend({
 	},
 
 	mounted() {
-		this.draw();
+		if (this.hash) { this.draw(); }
 	},
 
 	methods: {
