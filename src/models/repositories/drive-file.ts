@@ -199,5 +199,11 @@ export const packedDriveFileSchema = {
 			optional: false as const, nullable: false as const,
 			description: 'Whether this Drive file is sensitive.',
 		},
+		blurhash: {
+			type: 'string' as const,
+			optional: false as const, nullable: true as const,
+			description: 'The blurhash of image.',
+			example: 'yMEKyd1U1?=nZN-2EwofR*oHnijYX6S50J=m]WEVl9JE$SR*xHR;XSX8nQxB-WS6Nts*aKskWnaxR%s*i_n~X6S5=#NgOAs*enoIWU',
+		},
 	},
 };
