@@ -1,6 +1,7 @@
 <template>
 <div class="zdjebgpv" ref="thumbnail">
-    <img-with-blurhash v-if="isThumbnailAvailable" :hash="file.blurhash" :src="file.thumbnailUrl" :alt="file.name" :title="file.name" :style="`object-fit: ${ fit }`"/>
+    <img-with-blurhash v-if="isThumbnailAvailable && file.blurhash" :hash="file.blurhash" :src="file.thumbnailUrl" :alt="file.name" :title="file.name" :style="`object-fit: ${ fit }`"/>
+    <img-with-blurhash v-if="isThumbnailAvailable" :src="file.thumbnailUrl" :alt="file.name" :title="file.name" :style="`object-fit: ${ fit }`"/>
 	<fa :icon="faFileImage" class="icon" v-else-if="is === 'image'"/>
 	<fa :icon="faFileVideo" class="icon" v-else-if="is === 'video'"/>
 	<fa :icon="faMusic" class="icon" v-else-if="is === 'audio' || is === 'midi'"/>
