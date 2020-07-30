@@ -31,9 +31,9 @@ import {
 import ImgWithBlurhash from './img-with-blurhash.vue';
 
 export default Vue.extend({
-    components: {
-        ImgWithBlurhash
-    },
+	components: {
+		ImgWithBlurhash
+	},
 	props: {
 		file: {
 			type: Object,
@@ -104,7 +104,7 @@ export default Vue.extend({
 
 <style lang="stylus" scoped>
 .zdjebgpv
-    position relative
+	position relative
 
 	> .icon-sub
 		position absolute

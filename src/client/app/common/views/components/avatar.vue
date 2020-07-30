@@ -2,8 +2,8 @@
 	<span class="mk-avatar" :style="style" :class="{ cat }" :title="user | acct" v-if="disableLink" v-user-preview="disablePreview ? undefined : user.id" @click="onClick" v-once>
 		<img class="inner" :style="style" :src="url"/>
 	</span>
-    <router-link class="mk-avatar" :style="style" :class="{ cat }" :to="user | userPage" :title="user | acct" :target="target" v-else v-user-preview="disablePreview ? undefined : user.id">
- 	    <img class="inner" :style="style" :src="url"/>
+	<router-link class="mk-avatar" :style="style" :class="{ cat }" :to="user | userPage" :title="user | acct" :target="target" v-else v-user-preview="disablePreview ? undefined : user.id">
+		<img class="inner" :style="style" :src="url"/>
 	</router-link>
 </template>
 
@@ -49,22 +49,22 @@ export default Vue.extend({
 		}
 	},
 	watch: {
- 		'user.avatarBlurhash'() {
- 			this.$el.style.color = this.getBlurhashAvgColor(this.user.avatarBlurhash);
- 		}
- 	},
- 	mounted() {
- 		this.$el.style.color = this.getBlurhashAvgColor(this.user.avatarBlurhash);
- 	},
+		'user.avatarBlurhash'() {
+			this.$el.style.color = this.getBlurhashAvgColor(this.user.avatarBlurhash);
+		}
+	},
+	mounted() {
+		this.$el.style.color = this.getBlurhashAvgColor(this.user.avatarBlurhash);
+	},
 	methods: {
 		getBlurhashAvgColor(s) {
- 			return typeof s == 'string'
- 				? '#' + [...s.slice(2, 6)]
- 						.map(x => '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz#$%*+,-.:;=?@[]^_{|}~'.indexOf(x))
- 						.reduce((a, c) => a * 83 + c, 0)
- 						.toString(16)
- 				: undefined;
- 		},
+			return typeof s == 'string'
+				? '#' + [...s.slice(2, 6)]
+						.map(x => '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz#$%*+,-.:;=?@[]^_{|}~'.indexOf(x))
+						.reduce((a, c) => a * 83 + c, 0)
+						.toString(16)
+				: undefined;
+		},
 		onClick(e) {
 			this.$emit('click', e);
 		}

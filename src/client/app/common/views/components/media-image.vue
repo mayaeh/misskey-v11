@@ -1,11 +1,11 @@
 <template>
 <div class="qjewsnkg" v-if="image.isSensitive && hide" @click="hide = false">
-    <img-with-blurhash class="bg" :hash="image.blurhash" :title="image.name"/>
-    <div class="text">
-        <div>
-            <b><fa :icon="faExclamationTriangle"/> {{ $t('sensitive') }}</b>
-            <span>{{ $t('clickToShow') }}</span>
-        </div>
+	<img-with-blurhash class="bg" :hash="image.blurhash" :title="image.name"/>
+	<div class="text">
+		<div>
+			<b><fa :icon="faExclamationTriangle"/> {{ $t('sensitive') }}</b>
+			<span>{{ $t('clickToShow') }}</span>
+		</div>
 	</div>
 </div>
 <a class="gqnyydlz" v-else
@@ -28,8 +28,8 @@ import ImgWithBlurhash from './img-with-blurhash.vue';
 export default Vue.extend({
 	i18n: i18n('common/views/components/media-image.vue'),
 	components: {
-        ImgWithBlurhash
-    },
+		ImgWithBlurhash
+	},
 	props: {
 		image: {
 			type: Object,
@@ -46,9 +46,9 @@ export default Vue.extend({
 	},
 	computed: {
 		url(): any {
-            let url = this.$store.state.device.disableShowingAnimatedImages
-                ? getStaticImageUrl(this.image.thumbnailUrl)
-                : this.image.thumbnailUrl;
+			let url = this.$store.state.device.disableShowingAnimatedImages
+				? getStaticImageUrl(this.image.thumbnailUrl)
+				: this.image.thumbnailUrl;
 
 			if (this.$store.state.device.loadRemoteMedia || this.$store.state.device.lightmode) {
 				url = null;
@@ -74,7 +74,7 @@ export default Vue.extend({
 
 <style lang="stylus" scoped>
 .qjewsnkg
-    position relative
+	position relative
 
 	> .bg
 		filter brightness(0.5)
