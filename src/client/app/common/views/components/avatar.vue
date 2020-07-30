@@ -1,9 +1,9 @@
 <template>
 	<span class="mk-avatar" :style="style" :class="{ cat }" :title="user | acct" v-if="disableLink" v-user-preview="disablePreview ? undefined : user.id" @click="onClick" v-once>
-		<img class="inner" :src="url"/>
+		<img class="inner" :style="style" :src="url"/>
 	</span>
     <router-link class="mk-avatar" :style="style" :class="{ cat }" :to="user | userPage" :title="user | acct" :target="target" v-else v-user-preview="disablePreview ? undefined : user.id">
- 	    <img class="inner" :src="url"/>
+ 	    <img class="inner" :style="style" :src="url"/>
 	</router-link>
 </template>
 
