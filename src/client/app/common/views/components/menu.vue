@@ -92,7 +92,7 @@ export default Vue.extend({
 			this.close();
 		},
 		close() {
-			(this.$refs.backdrop as any).style.pointerEvents = 'none';
+			if (this.$refs.backdrop) (this.$refs.backdrop as any).style.pointerEvents = 'none';
 			anime({
 				targets: this.$refs.backdrop,
 				opacity: 0,
@@ -100,7 +100,7 @@ export default Vue.extend({
 				easing: 'linear'
 			});
 
-			(this.$refs.popover as any).style.pointerEvents = 'none';
+			if (this.$refs.popover) (this.$refs.popover as any).style.pointerEvents = 'none';
 			anime({
 				targets: this.$refs.popover,
 				opacity: 0,
