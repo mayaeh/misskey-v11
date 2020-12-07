@@ -2,7 +2,7 @@ version: 2
 updates:
 - package-ecosystem: npm
   directory: "/"
-  target_branch: "nyon"
+  target-branch: "nyon"
   schedule:
     interval: weekly
     day: "monday"
