@@ -129,7 +129,7 @@ module.exports = {
 	plugins: [
 		...(useHardSource ? [new HardSourceWebpackPlugin()] : []),
 		new ProgressBarPlugin({
-			format: chalk`  {cyan.bold yes we can} {bold [}:bar{bold ]} {green.bold :percent} {gray (:current/:total)} :elapseds`,
+			format: chalk`  {cyan.bold webpack} {bold [}:bar{bold ]} {green.bold :percent} :msg :elapseds`,
 			clear: false
 		}),
 		new webpack.DefinePlugin({
@@ -173,7 +173,6 @@ module.exports = {
 			parallel: 1
 		})]
 	},
-	cache: true,
 	devtool: false, //'source-map',
 	mode: isProduction ? 'production' : 'development'
 };
