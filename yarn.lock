@@ -8493,7 +8493,7 @@ recaptcha-promise@1.0.0:
   resolved "https://registry.yarnpkg.com/recaptcha-promise/-/recaptcha-promise-1.0.0.tgz#df16f208197fbfd571950cfb32ec3160e3909e0f"
   integrity sha512-aiJNjKa13YqjF0QmiBUSFpUHjgjJAkRGBndbhHUrwyaxpGdzTxnsLlVEKZvh0gj75AJ/H8H6Bn9qCs8fVc3X1g==
   dependencies:
-    axios "^0.21.1"
+    axios "^0.20.0"
 
 rechoir@^0.6.2:
   version "0.6.2"
