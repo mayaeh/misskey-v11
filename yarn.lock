@@ -5268,7 +5268,7 @@ is-stream@^2.0.0:
   resolved "https://registry.yarnpkg.com/is-stream/-/is-stream-2.0.0.tgz#bde9c32680d6fae04129d6ac9d921ce7815f78e3"
   integrity sha512-XCoy+WlUr7d1+Z8GgSuXmpuUFC9fOhRXglJMx+dwLKTkL44Cjd4W1Z5P+BQZpr+cR93aGP4S/s7Ftw6Nd/kiEw==
 
-is-svg@4.3.1, is-svg@^3.0.0:
+is-svg@4.3.1:
   version "4.3.1"
   resolved "https://registry.yarnpkg.com/is-svg/-/is-svg-4.3.1.tgz#8c63ec8c67c8c7f0a8de0a71c8c7d58eccf4406b"
   integrity sha512-h2CGs+yPUyvkgTJQS9cJzo9lYK06WgRiXUqBBHtglSzVKAuH4/oWsqk7LGfbSa1hGk9QcZ0SyQtVggvBA8LZXA==
@@ -5541,10 +5541,10 @@ jsprim@^1.2.2:
     json-schema "0.2.3"
     verror "1.10.0"
 
-jsrsasign@8.0.23:
-  version "8.0.23"
-  resolved "https://registry.yarnpkg.com/jsrsasign/-/jsrsasign-8.0.23.tgz#4427ed0bbbd809d65b8e5ac9d48ba5383b49ee0c"
-  integrity sha512-COwd/XmwaxBwf/6E3FO21DGK504KdjfNMYv6hVd2q6W6lzTeaL2UKQ0cIBw6SFMBCdaQl8fGUm4dHFt7Wmo9xw==
+jsrsasign@10.1.13:
+  version "10.1.13"
+  resolved "https://registry.yarnpkg.com/jsrsasign/-/jsrsasign-10.1.13.tgz#737f752b5ea321ccae5be25431e2df98ef1d369a"
+  integrity sha512-EKifn2DocDxU2fWVqTJgFYjZUcL4fTUtfgN5OQP4t4i/WOioios8wq350E1aJFxCLmtdxGNqhLX3O0tdVqJoFg==
 
 jstransformer@1.0.0:
   version "1.0.0"
