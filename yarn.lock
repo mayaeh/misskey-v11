@@ -1929,10 +1929,10 @@ builtin-modules@^1.1.1:
   resolved "https://registry.yarnpkg.com/builtin-modules/-/builtin-modules-1.1.1.tgz#270f076c5a72c02f5b65a47df94c5fe3a278892f"
   integrity sha1-Jw8HbFpywC9bZaR9+Uxf46J4iS8=
 
-bull@3.22.11:
-  version "3.22.11"
-  resolved "https://registry.yarnpkg.com/bull/-/bull-3.22.11.tgz#c51135dcee556c522be3046c0c539ae6902583ad"
-  integrity sha512-mk+KDgShT/RQUyTdDSjP/Hp0GsCQtl5d96rZP8BZKjNZ14zt6A3Dh0oQJmmdlvTySPoTSNNuOAOHCN/XCu3V7w==
+bull@3.23.0:
+  version "3.23.0"
+  resolved "https://registry.yarnpkg.com/bull/-/bull-3.23.0.tgz#d4843b24886a83b8af0e227319d5e1e5a7292c86"
+  integrity sha512-A677aSD7a2dKrfTLcyfhp+S92c5mvztEJaDEElAkBaqTbHCDTqpc3apS4dLSKM9EDKhf1jbrjlpkJxrxCb32+w==
   dependencies:
     cron-parser "^2.13.0"
     debuglog "^1.0.0"
@@ -4086,7 +4086,7 @@ github-from-package@0.0.0:
   resolved "https://registry.yarnpkg.com/github-from-package/-/github-from-package-0.0.0.tgz#97fb5d96bfde8973313f20e8288ef9a167fa64ce"
   integrity sha1-l/tdlr/eiXMxPyDoKI75oWf6ZM4=
 
-glob-parent@6.0.0, glob-parent@^3.1.0, glob-parent@^5.1.0, glob-parent@~5.1.0:
+glob-parent@6.0.0, glob-parent@^3.1.0, glob-parent@^5.1.0, glob-parent@~5.1.0, glob-parent@~5.1.2:
   version "6.0.0"
   resolved "https://registry.yarnpkg.com/glob-parent/-/glob-parent-6.0.0.tgz#f851b59b388e788f3a44d63fab50382b2859c33c"
   integrity sha512-Hdd4287VEJcZXUwv1l8a+vXC1GjOQqXe+VS30w/ypihpcnu9M1n3xeYeJu5CBpeEQj2nAab2xxz28GuA3vp4Ww==
