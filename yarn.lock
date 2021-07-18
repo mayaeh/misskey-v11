@@ -4086,7 +4086,7 @@ github-from-package@0.0.0:
   resolved "https://registry.yarnpkg.com/github-from-package/-/github-from-package-0.0.0.tgz#97fb5d96bfde8973313f20e8288ef9a167fa64ce"
   integrity sha1-l/tdlr/eiXMxPyDoKI75oWf6ZM4=
 
-glob-parent@6.0.0, glob-parent@^3.1.0, glob-parent@^5.1.0, glob-parent@~5.1.0:
+glob-parent@6.0.0, glob-parent@^3.1.0, glob-parent@^5.1.0, glob-parent@~5.1.0, glob-parent@~5.1.2:
   version "6.0.0"
   resolved "https://registry.yarnpkg.com/glob-parent/-/glob-parent-6.0.0.tgz#f851b59b388e788f3a44d63fab50382b2859c33c"
   integrity sha512-Hdd4287VEJcZXUwv1l8a+vXC1GjOQqXe+VS30w/ypihpcnu9M1n3xeYeJu5CBpeEQj2nAab2xxz28GuA3vp4Ww==
@@ -10013,10 +10013,10 @@ vue-hot-reload-api@^2.3.0:
   resolved "https://registry.yarnpkg.com/vue-hot-reload-api/-/vue-hot-reload-api-2.3.4.tgz#532955cc1eb208a3d990b3a9f9a70574657e08f2"
   integrity sha512-BXq3jwIagosjgNVae6tkHzzIk6a8MHFtzAdwhnV5VlvPTFxDCvIttgSiHWjdGoTJvXtmRu5HacExfdarRcFhog==
 
-vue-i18n@8.24.5:
-  version "8.24.5"
-  resolved "https://registry.yarnpkg.com/vue-i18n/-/vue-i18n-8.24.5.tgz#7127a666d5be2199be69be39e439a419a90ff931"
-  integrity sha512-p8W5xOmniuZ8fj76VXe0vBL3bRWVU87jHuC/v8VwmhKVH2iMQsKnheB1U+umxDBqC/5g9K+NwzokepcLxnBAVQ==
+vue-i18n@8.25.0:
+  version "8.25.0"
+  resolved "https://registry.yarnpkg.com/vue-i18n/-/vue-i18n-8.25.0.tgz#1037d9295fa2845a230b771de473481edb2cfc4c"
+  integrity sha512-ynhcL+PmTxuuSE1T10htiSXzjBozxYIE3ffbM1RfgAkVbr/v1SP+9Mi/7/uv8ZVV1yGuKjFAYp9BXq+X7op6MQ==
 
 vue-js-modal@1.3.35:
   version "1.3.35"
