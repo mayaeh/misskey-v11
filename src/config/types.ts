@@ -37,6 +37,10 @@ export type Source = {
 	proxy?: string;
 	proxySmtp?: string;
 
+	allowedPrivateNetworks?: string[];
+
+	maxFileSize?: number;
+
 	accesslog?: string;
 
 	clusterLimit?: number;
