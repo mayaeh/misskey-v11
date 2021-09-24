@@ -207,10 +207,10 @@
     require-from-string "^2.0.2"
     uri-js "^4.2.2"
 
-"@redocly/openapi-core@1.0.0-beta.58":
-  version "1.0.0-beta.58"
-  resolved "https://registry.yarnpkg.com/@redocly/openapi-core/-/openapi-core-1.0.0-beta.58.tgz#d7c9dfe580bd3f115f4e667ba49bc18be3c65ed2"
-  integrity sha512-aHohzi5PCBJd47cXXLD1sigVWEs4Xs9E5MOMq2RZ3FNmufiRxY+u1b4oPYGfcr4n3mBnG2qH1mFiTue6Levq7w==
+"@redocly/openapi-core@1.0.0-beta.59":
+  version "1.0.0-beta.59"
+  resolved "https://registry.yarnpkg.com/@redocly/openapi-core/-/openapi-core-1.0.0-beta.59.tgz#b3e235443055f9d5d68491a7dbfbdb9bd002624d"
+  integrity sha512-MAQs2wZaK6GkdYuNtFo0WPvCpU3TFxJ307O+6bdavlTszAqNjWZB34Igx81EXGMPNwE/SEIFUCYICu4+eG7z8w==
   dependencies:
     "@redocly/ajv" "^8.6.2"
     "@types/node" "^14.11.8"
@@ -673,10 +673,10 @@
     "@types/node" "*"
     form-data "^3.0.0"
 
-"@types/node@*", "@types/node@16.9.1":
-  version "16.9.1"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.9.1.tgz#0611b37db4246c937feef529ddcc018cf8e35708"
-  integrity sha512-QpLcX9ZSsq3YYUUnD3nFDY8H7wctAhQj/TFKL8Ya8v5fMm3CFXxo8zStsLAl780ltoYoo1WvKUVGBQK+1ifr7g==
+"@types/node@*", "@types/node@16.9.4":
+  version "16.9.4"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.9.4.tgz#a12f0ee7847cf17a97f6fdf1093cb7a9af23cca4"
+  integrity sha512-KDazLNYAGIuJugdbULwFZULF9qQ13yNWEBFnfVpqlpgAAo6H/qnM9RjBgh0A0kmHf3XxAKLdN5mTIng9iUvVLA==
 
 "@types/node@^14.11.8", "@types/node@^14.14.41":
   version "14.17.3"
@@ -1662,10 +1662,10 @@ autwh@0.1.0:
   dependencies:
     oauth "0.9.15"
 
-aws-sdk@2.986.0:
-  version "2.986.0"
-  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.986.0.tgz#d252690030c123caa55c62cb4725c9636a544e79"
-  integrity sha512-MQL2smwshyBNXo43B7DiKFExTium5nA5KkgaoDcajzsbW59I+Zaxt+Pi82PrseFxcnDO6GZkenFYF6wE1ZDHgw==
+aws-sdk@2.991.0:
+  version "2.991.0"
+  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.991.0.tgz#ba858c65cb71e1eeea39523463cf5ef258a73e8f"
+  integrity sha512-TybluMJhRBZ0h5HGupHPTfamwtsJlW56HddJpMbsIjvmh4LGupajrkEwLQYW7osFXQ1S/xuE+0QIy6vWgOpT0g==
   dependencies:
     buffer "4.9.2"
     events "1.1.1"
@@ -9160,10 +9160,10 @@ syslog-pro@1.0.0:
   dependencies:
     moment "^2.22.2"
 
-systeminformation@5.8.7:
-  version "5.8.7"
-  resolved "https://registry.yarnpkg.com/systeminformation/-/systeminformation-5.8.7.tgz#b2ab01f5568d996ac4ef92203bb59bb1327b64c2"
-  integrity sha512-e7b47PXn+GvPHLZm7FxC+IgPs5lqqsrmw7xtdxrr0U8aivYZO6V3CawMqCy5bfGB/ghZh/7AWlJEoXUPLyH3iw==
+systeminformation@5.9.3:
+  version "5.9.3"
+  resolved "https://registry.yarnpkg.com/systeminformation/-/systeminformation-5.9.3.tgz#d247c3fc27dc51787af28f0b4a0d82f9bce7f88b"
+  integrity sha512-FmifqCPDU5uJZeORt1jCiATBTHwpX7luDzeFo8lojYbEiJk6oR3mtAZBOayCo3iEmgSILzmbcO855OXPHCeU+g==
 
 syuilo-password-strength@0.0.1:
   version "0.0.1"
@@ -9968,10 +9968,10 @@ vue-hot-reload-api@^2.3.0:
   resolved "https://registry.yarnpkg.com/vue-hot-reload-api/-/vue-hot-reload-api-2.3.4.tgz#532955cc1eb208a3d990b3a9f9a70574657e08f2"
   integrity sha512-BXq3jwIagosjgNVae6tkHzzIk6a8MHFtzAdwhnV5VlvPTFxDCvIttgSiHWjdGoTJvXtmRu5HacExfdarRcFhog==
 
-vue-i18n@8.25.0:
-  version "8.25.0"
-  resolved "https://registry.yarnpkg.com/vue-i18n/-/vue-i18n-8.25.0.tgz#1037d9295fa2845a230b771de473481edb2cfc4c"
-  integrity sha512-ynhcL+PmTxuuSE1T10htiSXzjBozxYIE3ffbM1RfgAkVbr/v1SP+9Mi/7/uv8ZVV1yGuKjFAYp9BXq+X7op6MQ==
+vue-i18n@8.25.1:
+  version "8.25.1"
+  resolved "https://registry.yarnpkg.com/vue-i18n/-/vue-i18n-8.25.1.tgz#63e4111ff50269c8ae91e7f0f73373198a81a0fc"
+  integrity sha512-UgvN6LxcANSG2O/i8draincxY3E/2bppMNN0szVinN7tuzSJdNFQdB9VDVaQcR1i8BprK9ISUAgZVZacsl+Zbw==
 
 vue-js-modal@1.3.35:
   version "1.3.35"
@@ -10151,10 +10151,10 @@ webpack-sources@^3.2.0:
   resolved "https://registry.yarnpkg.com/webpack-sources/-/webpack-sources-3.2.0.tgz#b16973bcf844ebcdb3afde32eda1c04d0b90f89d"
   integrity sha512-fahN08Et7P9trej8xz/Z7eRu8ltyiygEo/hnRi9KqBUs80KeDcnf96ZJo++ewWd84fEf3xSX9bp4ZS9hbw0OBw==
 
-webpack@5.52.1, webpack@^5:
-  version "5.52.1"
-  resolved "https://registry.yarnpkg.com/webpack/-/webpack-5.52.1.tgz#2dc1d9029ecb7acfb80da7bf67baab67baa517a7"
-  integrity sha512-wkGb0hLfrS7ML3n2xIKfUIwHbjB6gxwQHyLmVHoAqEQBw+nWo+G6LoHL098FEXqahqximsntjBLuewStrnJk0g==
+webpack@5.53.0, webpack@^5:
+  version "5.53.0"
+  resolved "https://registry.yarnpkg.com/webpack/-/webpack-5.53.0.tgz#f463cd9c6fc1356ae4b9b7ac911fd1f5b2df86af"
+  integrity sha512-RZ1Z3z3ni44snoWjfWeHFyzvd9HMVYDYC5VXmlYUT6NWgEOWdCNpad5Fve2CzzHoRED7WtsKe+FCyP5Vk4pWiQ==
   dependencies:
     "@types/eslint-scope" "^3.7.0"
     "@types/estree" "^0.0.50"
