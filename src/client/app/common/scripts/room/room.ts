@@ -201,7 +201,7 @@ export class Room {
 			const renderTarget = new THREE.WebGLRenderTarget(width, height, {
 				minFilter: THREE.LinearFilter,
 				magFilter: THREE.LinearFilter,
-				format: THREE.RGBFormat,
+				format: THREE.RGBAFormat,
 				stencilBuffer: false,
 			});
 
