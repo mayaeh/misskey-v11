@@ -9,6 +9,8 @@ import { ShaderPass } from 'three/examples/jsm/postprocessing/ShaderPass.js';
 import { BloomPass } from 'three/examples/jsm/postprocessing/BloomPass.js';
 import { FXAAShader } from 'three/examples/jsm/shaders/FXAAShader.js';
 import { TransformControls } from 'three/examples/jsm/controls/TransformControls.js';
+import { FontLoader } from 'three/examples/jsm/loaders/FontLoader.js';
+import { TextGeometry } from 'three/examples/jsm/geometries/TextGeometry.js';
 import { Furniture, RoomInfo } from './furniture';
 import { query as urlQuery } from '../../../../../prelude/url';
 const furnitureDefs = require('./furnitures.json5');
@@ -201,7 +203,7 @@ export class Room {
 			const renderTarget = new THREE.WebGLRenderTarget(width, height, {
 				minFilter: THREE.LinearFilter,
 				magFilter: THREE.LinearFilter,
-				format: THREE.RGBFormat,
+				format: THREE.RGBAFormat,
 				stencilBuffer: false,
 			});
 
@@ -250,8 +252,8 @@ export class Room {
 		//#region Username
 		const name = user.username;
 
-		new THREE.FontLoader().load('/assets/fonts/helvetiker_regular.typeface.json', font => {
-			const nameGeometry = new THREE.TextGeometry(name, {
+		new FontLoader().load('/assets/fonts/helvetiker_regular.typeface.json', font => {
+			const nameGeometry = new TextGeometry(name, {
 				size: 0.5,
 				height: 0,
 				curveSegments: 8,
