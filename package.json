@@ -30,7 +30,7 @@
 		"mocha": "^9.2.0"
 	},
 	"dependencies": {
-		"@elastic/elasticsearch": "7.12.0",
+		"@elastic/elasticsearch": "8.0.0",
 		"@fortawesome/fontawesome-svg-core": "1.2.36",
 		"@fortawesome/free-brands-svg-icons": "5.15.4",
 		"@fortawesome/free-regular-svg-icons": "5.15.4",
