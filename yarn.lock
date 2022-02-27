@@ -8834,10 +8834,10 @@ syslog-pro@1.0.0:
   dependencies:
     moment "^2.22.2"
 
-systeminformation@5.11.2:
-  version "5.11.2"
-  resolved "https://registry.yarnpkg.com/systeminformation/-/systeminformation-5.11.2.tgz#291280715c91f06d84f8748e78dab97df2f7ac1f"
-  integrity sha512-/6+p1ze2curwSMZQgQ9Gv4eLgtAaX9ROBEVELddkYy7llpP0SQjpSx4qDFEBscxqm/6yu+Khwi0Pneoy/wTwVg==
+systeminformation@5.11.5:
+  version "5.11.5"
+  resolved "https://registry.yarnpkg.com/systeminformation/-/systeminformation-5.11.5.tgz#0262c1e892ef6925330f11d401cee8df47eea805"
+  integrity sha512-AtJreEPwOAnMstMRtVbQwq8V+dOgOJa8fqzjXjrb46JnVIqrRHRP6+L8VU4WvDbPgdRHA7Nr0l6jH42dmGoACQ==
 
 syuilo-password-strength@0.0.1:
   version "0.0.1"
