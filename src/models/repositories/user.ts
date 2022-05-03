@@ -128,8 +128,8 @@ export class UserRepository extends Repository<User> {
 			username: user.username,
 			host: user.host,
 			avatarUrl: user.avatar ? DriveFiles.getPublicUrl(user.avatar, true) : config.url + '/avatar/' + user.id,
-			avatarBlurhash: user.avatarBlurhash,
-			avatarColor: null, // 後方互換性のため
+			avatarBlurhash: user.avatar?.blurhash || null,
+			avatarColor: null,
 			isAdmin: user.isAdmin || falsy,
 			isBot: user.isBot || falsy,
 			isCat: user.isCat || falsy,
@@ -154,7 +154,7 @@ export class UserRepository extends Repository<User> {
 				updatedAt: user.updatedAt ? user.updatedAt.toISOString() : null,
 				bannerUrl: user.banner ? DriveFiles.getPublicUrl(user.banner, false) : null,
 				bannerBlurhash: user.bannerBlurhash,
-				bannerColor: null, // 後方互換性のため
+				bannerColor: user.banner?.properties?.avgColor || null,
 				isLocked: user.isLocked,
 				isModerator: user.isModerator || falsy,
 				isSilenced: user.isSilenced || falsy,
