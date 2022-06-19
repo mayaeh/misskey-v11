@@ -28,6 +28,7 @@
 		"glob-parent": "6.0.2",
 		"lodash": "^4.17.21",
 		"mocha": "^9.2.0"
+		"source-map": "^0.8.0-beta.0"
 	},
 	"dependencies": {
 		"@elastic/elasticsearch": "7.12.0",
@@ -206,7 +207,7 @@
 		"stringz": "2.1.0",
 		"stylus": "0.57.0",
 		"stylus-loader": "6.2.0",
-		"summaly": "2.5.0",
+		"summaly": "2.6.0",
 		"syslog-pro": "1.0.0",
 		"systeminformation": "5.11.15",
 		"syuilo-password-strength": "0.0.1",
