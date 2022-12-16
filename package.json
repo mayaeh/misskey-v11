@@ -71,7 +71,7 @@
 		"@types/koa__router": "8.0.11",
 		"@types/lolex": "5.1.2",
 		"@types/mocha": "10.0.1",
-		"@types/node": "18.11.9",
+		"@types/node": "18.11.15",
 		"@types/node-fetch": "2.6.1",
 		"@types/nprogress": "0.2.0",
 		"@types/oauth": "0.9.1",
@@ -104,7 +104,7 @@
 		"autobind-decorator": "2.4.0",
 		"autosize": "4.0.4",
 		"autwh": "0.1.0",
-		"aws-sdk": "2.1265.0",
+		"aws-sdk": "2.1274.0",
 		"bcryptjs": "2.4.3",
 		"blurhash": "1.1.5",
 		"bootstrap-vue": "2.23.1",
@@ -209,7 +209,7 @@
 		"stylus-loader": "7.1.0",
 		"summaly": "2.7.0",
 		"syslog-pro": "1.0.0",
-		"systeminformation": "5.14.4",
+		"systeminformation": "5.16.6",
 		"syuilo-password-strength": "0.0.1",
 		"terser-webpack-plugin": "4.2.3",
 		"textarea-caret": "3.1.0",
@@ -250,10 +250,10 @@
 	},
 	"devDependencies": {
 		"@redocly/openapi-core": "1.0.0-beta.114",
-		"@typescript-eslint/eslint-plugin": "5.44.0",
+		"@typescript-eslint/eslint-plugin": "5.46.1",
 		"@typescript-eslint/parser": "5.45.0",
 		"eslint": "8.29.0",
 		"eslint-plugin-node": "11.1.0",
-		"mocha": "10.1.0"
+		"mocha": "10.2.0"
 	}
 }
