@@ -30,7 +30,6 @@
 	"resolutions": {
 		"glob-parent": "6.0.2",
 		"lodash": "^4.17.21",
-		"mocha": "^9.2.0",
 		"source-map": "^0.7.4"
 	},
 	"dependencies": {
@@ -80,8 +79,6 @@
 		"gulp-stylus": "3.0.0",
 		"gulp-swc": "1.2.3",
 		"gulp-terser": "2.1.0",
-		"gulp-typescript": "5.0.1",
-		"hard-source-webpack-plugin": "0.13.1",
 		"highlight.js": "10.7.3",
 		"html-minifier": "4.0.0",
 		"http-proxy-agent": "5.0.0",
