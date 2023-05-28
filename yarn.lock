@@ -321,10 +321,10 @@
     require-from-string "^2.0.2"
     uri-js "^4.2.2"
 
-"@redocly/openapi-core@1.0.0-beta.123":
-  version "1.0.0-beta.123"
-  resolved "https://registry.yarnpkg.com/@redocly/openapi-core/-/openapi-core-1.0.0-beta.123.tgz#0c29ae9fabe5f143f571caf608a7d025f41125db"
-  integrity sha512-W6MbUWpb/VaV+Kf0c3jmMIJw3WwwF7iK5nAfcOS+ZwrlbxtIl37+1hEydFlJ209vCR9HL12PaMwdh2Vpihj6Jw==
+"@redocly/openapi-core@1.0.0-beta.127":
+  version "1.0.0-beta.127"
+  resolved "https://registry.yarnpkg.com/@redocly/openapi-core/-/openapi-core-1.0.0-beta.127.tgz#e2a926ca4de2b9f8801545a86c44c71901736c59"
+  integrity sha512-zDWyQt8azIP66AHmlh6Sz9B59h4DXMVJVHOe+j3s6lzu1P1Hkl4kTFHDH4E9O2uq2S+pEiJHh8hLFNVPW4Xtvw==
   dependencies:
     "@redocly/ajv" "^8.11.0"
     "@types/node" "^14.11.8"
@@ -6432,7 +6432,7 @@ node-addon-api@^5.0.0:
   resolved "https://registry.yarnpkg.com/node-addon-api/-/node-addon-api-5.0.0.tgz#7d7e6f9ef89043befdb20c1989c905ebde18c501"
   integrity sha512-CvkDw2OEnme7ybCykJpVcKH+uAOLV2qLqiyla128dN9TkEWfrYmxG6C2boDe5KcNQqZF3orkqzGgOMvZ/JNekA==
 
-node-fetch@2.6.9:
+node-fetch@2.6.9, node-fetch@^2.6.1:
   version "2.6.9"
   resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.9.tgz#7c7f744b5cc6eb5fd404e0c7a9fec630a55657e6"
   integrity sha512-DJm/CJkZkRjKKj4Zi4BsKVZh3ValV5IR5s7LVZnW+6YMh0W1BfNA8XSs6DLMGYlId5F3KnA70uu2qepcR08Qqg==
@@ -6446,13 +6446,6 @@ node-fetch@3.0.0-beta.9:
   dependencies:
     data-uri-to-buffer "^3.0.1"
     fetch-blob "^2.1.1"
-
-node-fetch@^2.6.1:
-  version "2.6.8"
-  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.8.tgz#a68d30b162bc1d8fd71a367e81b997e1f4d4937e"
-  integrity sha512-RZ6dBYuj8dRSfxpUSu+NsdF1dpPpluJxwOp+6IoDp/sH2QNDSvurYsAa+F1WxY2RjA1iP93xhcsUoYbF2XBqVg==
-  dependencies:
-    whatwg-url "^5.0.0"
 
 node-gyp-build@^4.2.3:
   version "4.3.0"
