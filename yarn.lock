@@ -4742,7 +4742,7 @@ http_ece@1.1.0:
   dependencies:
     urlsafe-base64 "~1.0.0"
 
-https-proxy-agent@7.0.1:
+https-proxy-agent@7.0.1, https-proxy-agent@^7.0.0:
   version "7.0.1"
   resolved "https://registry.yarnpkg.com/https-proxy-agent/-/https-proxy-agent-7.0.1.tgz#0277e28f13a07d45c663633841e20a40aaafe0ab"
   integrity sha512-Eun8zV0kcYS1g19r78osiQLEFIRspRUDd9tIfBCTBPBeMieF/EsJNL8VI3xOIdYRDEkjQnqOYPsZ2DsWsVsFwQ==
@@ -9616,7 +9616,7 @@ url@0.10.3:
     punycode "1.3.2"
     querystring "0.2.0"
 
-urlsafe-base64@^1.0.0, urlsafe-base64@~1.0.0:
+urlsafe-base64@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/urlsafe-base64/-/urlsafe-base64-1.0.0.tgz#23f89069a6c62f46cf3a1d3b00169cefb90be0c6"
   integrity sha1-I/iQaabGL0bPOh07ABac77kL4MY=
@@ -9944,17 +9944,16 @@ watchpack@^2.4.0:
     glob-to-regexp "^0.4.1"
     graceful-fs "^4.1.2"
 
-web-push@3.5.0:
-  version "3.5.0"
-  resolved "https://registry.yarnpkg.com/web-push/-/web-push-3.5.0.tgz#4576533746052eda3bd50414b54a1b0a21eeaeae"
-  integrity sha512-JC0V9hzKTqlDYJ+LTZUXtW7B175qwwaqzbbMSWDxHWxZvd3xY0C2rcotMGDavub2nAAFw+sXTsqR65/KY2A5AQ==
+web-push@3.6.3:
+  version "3.6.3"
+  resolved "https://registry.yarnpkg.com/web-push/-/web-push-3.6.3.tgz#8a68509dcff70f74a2aeeed9dad5447c9414aa3d"
+  integrity sha512-3RlA0lRmLcwlHCRR94Tz+Fw6wPtm0lFm8oyukQunlEIarANxE84Ox9XBgF4+jNlXgO40DIwblOiC43oR46helA==
   dependencies:
     asn1.js "^5.3.0"
     http_ece "1.1.0"
-    https-proxy-agent "^5.0.0"
+    https-proxy-agent "^7.0.0"
     jws "^4.0.0"
     minimist "^1.2.5"
-    urlsafe-base64 "^1.0.0"
 
 webidl-conversions@^3.0.0:
   version "3.0.1"
