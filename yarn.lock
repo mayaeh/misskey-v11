@@ -5414,7 +5414,7 @@ jmespath@0.16.0:
   resolved "https://registry.yarnpkg.com/jmespath/-/jmespath-0.16.0.tgz#b15b0a85dfd4d930d43e69ed605943c802785076"
   integrity sha512-9FzQjJ7MATs1tSpnco1K6ayiYE3figslrXA72G2HQ/n76RzvYlofyi5QM+iX4YRs/pu3yzxlVQSST23+dMDknw==
 
-jpeg-js@^0.4.1:
+jpeg-js@^0.4.4:
   version "0.4.4"
   resolved "https://registry.yarnpkg.com/jpeg-js/-/jpeg-js-0.4.4.tgz#a9f1c6f1f9f0fa80cdb3484ed9635054d28936aa"
   integrity sha512-WZzeDOEtTOBK4Mdsar0IqEU5sMr3vSV2RqkAIzUEV2BHnUfKGyswWFPFwK5EeDo93K3FohSHbLAjj0s1Wzd+dg==
@@ -7165,15 +7165,15 @@ pluralize@^8.0.0:
   resolved "https://registry.yarnpkg.com/pluralize/-/pluralize-8.0.0.tgz#1a6fa16a38d12a1901e0320fa017051c539ce3b1"
   integrity sha512-Nc3IT5yHzflTfbjgqWcCPpo7DaKy4FnpB0l/zCAW0Tc7jxAiuqSxHasntB3D7887LSrA93kDJ9IXovxJYxyLCA==
 
-pngjs@^3.3.1:
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/pngjs/-/pngjs-3.4.0.tgz#99ca7d725965fb655814eaf65f38f12bbdbf555f"
-  integrity sha512-NCrCHhWmnQklfH4MtJMRjZ2a8c80qXeMlQMv2uVp9ISJMTt562SbGd6n2oq0PaPgKm7Z6pL9E2UlLIhC+SHL3w==
-
 pngjs@^5.0.0:
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/pngjs/-/pngjs-5.0.0.tgz#e79dd2b215767fd9c04561c01236df960bce7fbb"
   integrity sha512-40QW5YalBNfQo5yRYmiw7Yz6TKKVr3h6970B2YE+3fQpsWcrbj1PzJgxeJ19DRQjhMbKPIuMY8rFaXc8moolVw==
+
+pngjs@^7.0.0:
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/pngjs/-/pngjs-7.0.0.tgz#a8b7446020ebbc6ac739db6c5415a65d17090e26"
+  integrity sha512-LKWqWJRhstyYo9pGvgor/ivk2w94eSjE3RGVuzLGlr3NmD8bf7RcYGze1mNdEHRP6TRP6rMuDHk5t44hnTRyow==
 
 popper.js@^1.16.1:
   version "1.16.1"
@@ -7771,14 +7771,14 @@ punycode@2.1.1, punycode@^2.1.0, punycode@^2.1.1:
   resolved "https://registry.yarnpkg.com/punycode/-/punycode-2.1.1.tgz#b58b010ac40c22c5657616c8d2c2c02c7bf479ec"
   integrity sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==
 
-pureimage@0.3.8:
-  version "0.3.8"
-  resolved "https://registry.yarnpkg.com/pureimage/-/pureimage-0.3.8.tgz#b9c2a127f3182ab94fb4520e83f4fbcbdd9b38f1"
-  integrity sha512-+CuR0HM0VmBfKKQTM56myBonDZAhZkS6ymJ8W5oYYDXG7y7X34B/dEH3UesbJI497Vc2OkA+g8T1/Xj/FTyQ8A==
+pureimage@0.4.8:
+  version "0.4.8"
+  resolved "https://registry.yarnpkg.com/pureimage/-/pureimage-0.4.8.tgz#5758314a30440df9e371490fea32a66ca5b17c70"
+  integrity sha512-/yNBs67VB4moPB7tqfupxFhYYaSlpnBpDb5995B0FP+vTqKwR2KD2uEIvch9NmpqUpVnsXcDOsFgmuGTgLX/Lg==
   dependencies:
-    jpeg-js "^0.4.1"
+    jpeg-js "^0.4.4"
     opentype.js "^0.4.3"
-    pngjs "^3.3.1"
+    pngjs "^7.0.0"
 
 q@1.4.1:
   version "1.4.1"
