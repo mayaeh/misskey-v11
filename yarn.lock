@@ -550,10 +550,10 @@
   resolved "https://registry.yarnpkg.com/@types/dateformat/-/dateformat-3.0.1.tgz#98d747a2e5e9a56070c6bf14e27bff56204e34cc"
   integrity sha512-KlPPdikagvL6ELjWsljbyDIPzNCeliYkqRpI+zea99vBBbCIA5JNshZAwQKTON139c87y9qvTFVgkFd14rtS4g==
 
-"@types/double-ended-queue@2.1.2":
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/@types/double-ended-queue/-/double-ended-queue-2.1.2.tgz#e5472829281a8cd46adc29cb1ff5a78c0f72f53f"
-  integrity sha512-iAjbBa3X4UQtYxcCsAr0YaZMRwyC79q4KHui0XtEN7GGLJA4fzD116KUYXXZKskaOYSchnaOFT/a8zSlEx3P9Q==
+"@types/double-ended-queue@2.1.3":
+  version "2.1.3"
+  resolved "https://registry.yarnpkg.com/@types/double-ended-queue/-/double-ended-queue-2.1.3.tgz#daec55ee74fe3f38b7467bf213c3ec397451e57f"
+  integrity sha512-PWBSlai2jeSM3xOlr4JPI0oDiGFLVkVvylJ1nK1+oK9V/RiBIqDy8vCtsk+gOQN/I1gU6O1cR1OHheBanFdbCQ==
 
 "@types/escape-regexp@0.0.1":
   version "0.0.1"
