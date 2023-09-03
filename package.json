@@ -93,7 +93,7 @@
 		"js-yaml": "4.1.0",
 		"jsdom": "19.0.0",
 		"json5-loader": "4.0.1",
-		"jsonld": "5.2.0",
+		"jsonld": "8.2.1",
 		"jsrsasign": "10.5.27",
 		"katex": "0.16.8",
 		"koa": "2.13.4",
