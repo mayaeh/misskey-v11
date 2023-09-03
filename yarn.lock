@@ -774,10 +774,10 @@
   dependencies:
     "@types/koa" "*"
 
-"@types/lolex@5.1.2":
-  version "5.1.2"
-  resolved "https://registry.yarnpkg.com/@types/lolex/-/lolex-5.1.2.tgz#0a0d336f96f70919107399a52877a7dea4a4f284"
-  integrity sha512-ZmfpBbjp2obo1dKm2l57tL/yVAVfDryHX/6nsivGQ1Gd86Ylu6GFNdxH69kUmYWmmO+Yedq9i7m0/obFww4XiQ==
+"@types/lolex@5.1.4":
+  version "5.1.4"
+  resolved "https://registry.yarnpkg.com/@types/lolex/-/lolex-5.1.4.tgz#07a445a722a42e33eb6566fa0f18341db7ab44e6"
+  integrity sha512-3+ObDpTE83hBilkGYJAJx8BH7EAb9prGLsouhPT0kn3gBANef9EvS73yZFy8CnsieS6iI54hfCxnqJUDXU67TQ==
 
 "@types/mime@*":
   version "2.0.1"
