@@ -735,10 +735,10 @@
   dependencies:
     "@types/koa" "*"
 
-"@types/koa-favicon@2.0.21":
-  version "2.0.21"
-  resolved "https://registry.yarnpkg.com/@types/koa-favicon/-/koa-favicon-2.0.21.tgz#d8a0ed062a6f5e3f838fe09c21e8b3f0490369cd"
-  integrity sha512-paH1nheVhijx/VduoR/RCD/qTCiX+OI/6fHLi3mZae053Ts+gUBOrKtzl3pMTDbdEBqdLolfLje3PZbb6jW0jQ==
+"@types/koa-favicon@2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@types/koa-favicon/-/koa-favicon-2.1.0.tgz#6b99859f04e0eddd50fd742862ff085da58cf2e7"
+  integrity sha512-17PO7k16GBloMn2Ap3SugUlWY5r8VvJs5JpSN6sM4mx9RRttp8Bcde7haBSUZfUS742XJPSuSTszNt0EYW98hQ==
   dependencies:
     "@types/koa" "*"
 
