@@ -728,10 +728,10 @@
   dependencies:
     "@types/koa" "*"
 
-"@types/koa-cors@0.0.2":
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@types/koa-cors/-/koa-cors-0.0.2.tgz#369c753fb383640f225579c70a4f9a286b4931b7"
-  integrity sha512-uNaDY26HUVO+2C6arK8ZFODs9mBjYprD8mlvkVe2bYdX9wzEeKtycVXPafXpUkePhMh4sffIMkhRDyedokG/QA==
+"@types/koa-cors@0.0.4":
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/@types/koa-cors/-/koa-cors-0.0.4.tgz#766045018a731fa1b0e23e9df297bcda710ae463"
+  integrity sha512-2NMaknk0NXYP7h4kJiw0gAbG5Kw9W3kQFrV1+M6Mn3s6Zb875rqS38kpE0wCB51JaTtsJh5UQPsvdslSF4OVkg==
   dependencies:
     "@types/koa" "*"
 
