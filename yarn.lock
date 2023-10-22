@@ -995,10 +995,10 @@
   dependencies:
     "@types/node" "*"
 
-"@types/showdown@2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@types/showdown/-/showdown-2.0.0.tgz#3e800eca8573848cac4e5555f4377ba3a0e7b1f2"
-  integrity sha512-70xBJoLv+oXjB5PhtA8vo7erjLDp9/qqI63SRHm4REKrwuPOLs8HhXwlZJBJaB4kC18cCZ1UUZ6Fb/PLFW4TCA==
+"@types/showdown@2.0.3":
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/@types/showdown/-/showdown-2.0.3.tgz#718e95a33ce51946c36cf0b1f170c6b2e0c51c62"
+  integrity sha512-cFuAcA3p2YPq8HR8KxvDXnOdccOZ74ypANB3kb3AL5Srji0QnteVw6vf4o7GJ8hMyz+uZ+nSQHVgXSgjYD1a5g==
 
 "@types/source-list-map@*":
   version "0.1.3"
