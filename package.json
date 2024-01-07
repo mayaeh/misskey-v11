@@ -90,7 +90,7 @@
 		"@peertube/http-signature": "1.7.0",
 		"https-proxy-agent": "5.0.1",
 		"insert-text-at-cursor": "0.3.0",
-		"ip-cidr": "3.0.11",
+		"ip-cidr": "4.0.0",
 		"is-svg": "4.3.2",
 		"js-yaml": "4.1.0",
 		"jsdom": "19.0.0",
