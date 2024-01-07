@@ -84,7 +84,7 @@
 		"gulp-stylus": "3.0.0",
 		"gulp-swc": "1.2.3",
 		"gulp-terser": "2.1.0",
-		"highlight.js": "10.7.3",
+		"highlight.js": "11.9.0",
 		"html-minifier": "4.0.0",
 		"http-proxy-agent": "5.0.0",
 		"@peertube/http-signature": "1.7.0",
