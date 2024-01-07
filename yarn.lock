@@ -10444,10 +10444,10 @@ ws@^8.2.3:
   resolved "https://registry.yarnpkg.com/ws/-/ws-8.14.2.tgz#6c249a806eb2db7a20d26d51e7709eab7b2e6c7f"
   integrity sha512-wEBG1ftX4jcglPxgFCMJmZ2PLtSbJ2Peg6TmpJFTbe9GZYOQCDPdMYu/Tm0/bGZkw8paZnJY45J4K2PZrLYq8g==
 
-xev@2.0.1:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/xev/-/xev-2.0.1.tgz#24484173a22115bc8a990ef5d4d5129695b827a7"
-  integrity sha512-icDf9M67bDge0F2qf02WKZq+s7mMO/SbPv67ZQPym6JThLEOdlWWLdB7VTVgRJp3ekgaiVItCAyH6aoKCPvfIA==
+xev@3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/xev/-/xev-3.0.2.tgz#3f4080bd8bed0d3479c674050e3696da98d22a4d"
+  integrity sha512-8kxuH95iMXzHZj+fwqfA4UrPcYOy6bGIgfWzo9Ji23JoEc30ge/Z++Ubkiuy8c0+M64nXmmxrmJ7C8wnuBhluw==
 
 xml-js@^1.6.11:
   version "1.6.11"
