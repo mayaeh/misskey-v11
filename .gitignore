@@ -37,3 +37,17 @@ ormconfig.json
 *.blend3
 *.blend4
 *.blend5
+
+# Ignore yarn log files
+yarn-error.log
+yarn-debug.log
+
+# From https://yarnpkg.com/getting-started/qa#which-files-should-be-gitignored
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
