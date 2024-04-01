@@ -798,6 +798,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@twemoji/parser@npm:15.1.0":
+  version: 15.1.0
+  resolution: "@twemoji/parser@npm:15.1.0"
+  checksum: 10c0/ee38a82b40f5bc945eaefd87e74da716446ad1d02e11de36ba4e6e3e24be0fccb96038b94ae09fc0ca2405d7324d1b25b37769d32264a9ef72758f025389f22c
+  languageName: node
+  linkType: hard
+
 "@types/accepts@npm:*":
   version: 1.3.5
   resolution: "@types/accepts@npm:1.3.5"
@@ -4081,6 +4088,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"crossws@npm:^0.2.2":
+  version: 0.2.4
+  resolution: "crossws@npm:0.2.4"
+  peerDependencies:
+    uWebSockets.js: "*"
+  peerDependenciesMeta:
+    uWebSockets.js:
+      optional: true
+  checksum: 10c0/b950c64d36f3f11fdb8e0faf3107598660d89d77eb860e68b535fe6acba9f0f2f0507cc7250bd219a3ef2fe08718db91b591e6912b7324fcfc8fd1b8d9f78c96
+  languageName: node
+  linkType: hard
+
 "css-declaration-sorter@npm:^6.3.1":
   version: 6.4.1
   resolution: "css-declaration-sorter@npm:6.4.1"
@@ -4378,7 +4397,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"debug@npm:3.X, debug@npm:^3.2.6":
+"debug@npm:3.X, debug@npm:^3.1.0, debug@npm:^3.2.6":
   version: 3.2.7
   resolution: "debug@npm:3.2.7"
   dependencies:
@@ -4551,7 +4570,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"defu@npm:^6.1.3":
+"defu@npm:^6.1.3, defu@npm:^6.1.4":
   version: 6.1.4
   resolution: "defu@npm:6.1.4"
   checksum: 10c0/2d6cc366262dc0cb8096e429368e44052fdf43ed48e53ad84cc7c9407f890301aa5fcb80d0995abaaf842b3949f154d060be4160f7a46cb2bc2f7726c81526f5
@@ -4607,10 +4626,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"destr@npm:^2.0.2":
-  version: 2.0.2
-  resolution: "destr@npm:2.0.2"
-  checksum: 10c0/28bd8793c0507489efeb4b86c471fe9578e25439c1f7e4a4e4db9b69fe37689b68b9b205b7c317ca31590120e9c5364a31fec2eb6ec73bb425ede8f993c771d6
+"destr@npm:^2.0.3":
+  version: 2.0.3
+  resolution: "destr@npm:2.0.3"
+  checksum: 10c0/10e7eff5149e2839a4dd29a1e9617c3c675a3b53608d78d74fc6f4abc31daa977e6de08e0eea78965527a0d5a35467ae2f9624e0a4646d54aa1162caa094473e
   languageName: node
   linkType: hard
 
@@ -6466,19 +6485,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"h3@npm:1.9.0":
-  version: 1.9.0
-  resolution: "h3@npm:1.9.0"
+"h3@npm:1.11.1":
+  version: 1.11.1
+  resolution: "h3@npm:1.11.1"
   dependencies:
     cookie-es: "npm:^1.0.0"
-    defu: "npm:^6.1.3"
-    destr: "npm:^2.0.2"
+    crossws: "npm:^0.2.2"
+    defu: "npm:^6.1.4"
+    destr: "npm:^2.0.3"
     iron-webcrypto: "npm:^1.0.0"
+    ohash: "npm:^1.1.3"
     radix3: "npm:^1.1.0"
-    ufo: "npm:^1.3.2"
+    ufo: "npm:^1.4.0"
     uncrypto: "npm:^0.1.3"
-    unenv: "npm:^1.7.4"
-  checksum: 10c0/90e80c34c9d0b7bdb24b13865ac27a88ca7724f0d1ce005295ae16408d4527020328a077d6c5df02de9f7ce7a15ab8a110978e1394a31717b07a34f09be91c06
+    unenv: "npm:^1.9.0"
+  checksum: 10c0/bd02bfae536a0facb9ddcd85bd51ad16264ea6fd331a548540a0846e426348449fcbcb10b0fa08673cd1d9c60e6ff5d8f56e7ec2e1ee43fda460d8c16866cbfa
   languageName: node
   linkType: hard
 
@@ -6661,10 +6682,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"html-entities@npm:2.4.0":
-  version: 2.4.0
-  resolution: "html-entities@npm:2.4.0"
-  checksum: 10c0/42bbd5d91f451625d7e35aaed41c8cd110054c0d0970764cb58df467b3f27f20199e8cf7b4aebc8d4eeaf17a27c0d1fb165f2852db85de200995d0f009c9011d
+"html-entities@npm:2.5.2":
+  version: 2.5.2
+  resolution: "html-entities@npm:2.5.2"
+  checksum: 10c0/f20ffb4326606245c439c231de40a7c560607f639bf40ffbfb36b4c70729fd95d7964209045f1a4e62fe17f2364cef3d6e49b02ea09016f207fde51c2211e481
   languageName: node
   linkType: hard
 
@@ -8617,13 +8638,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"memoji@mei23/memoji#15.0.1":
-  version: 15.0.1
-  resolution: "memoji@https://github.com/mei23/memoji.git#commit=4958da7c75c18703b7d9409d668516efd0fd84e2"
-  checksum: 10c0/45d917a88c218c09de7d81b87c9c469ad46878cb8e05dfb0a24985ca83592e889fb34cce33996cab9a3a5b4b1191ce310aca51691cf21aa194a11d55182630cc
-  languageName: node
-  linkType: hard
-
 "merge-source-map@npm:^1.1.0":
   version: 1.1.0
   resolution: "merge-source-map@npm:1.1.0"
@@ -8892,6 +8906,7 @@ __metadata:
     "@peertube/http-signature": "npm:1.7.0"
     "@redocly/openapi-core": "npm:1.0.0-beta.123"
     "@swc/core": "npm:1.3.107"
+    "@twemoji/parser": "npm:15.1.0"
     "@types/bcryptjs": "npm:2.4.6"
     "@types/bull": "npm:4.10.0"
     "@types/cbor": "npm:6.0.0"
@@ -9013,7 +9028,6 @@ __metadata:
     koa-views: "npm:8.0.0"
     langmap: "npm:0.0.16"
     loader-utils: "npm:2.0.4"
-    memoji: "mei23/memoji#15.0.1"
     mocha: "npm:10.2.0"
     moji: "npm:0.5.1"
     ms: "npm:2.1.3"
@@ -9060,7 +9074,7 @@ __metadata:
     stringz: "npm:2.1.0"
     stylus: "npm:0.59.0"
     stylus-loader: "npm:7.1.3"
-    summaly: "mei23/summaly#3.11.0"
+    summaly: "mei23/summaly#3.13.0"
     syslog-pro: "npm:1.0.0"
     systeminformation: "npm:5.21.7"
     syuilo-password-strength: "npm:0.0.1"
@@ -9071,7 +9085,6 @@ __metadata:
     tmp: "npm:0.2.1"
     ts-loader: "npm:9.4.2"
     ts-node: "npm:10.9.1"
-    twemoji-parser: "git+https://github.com/mei23/twemoji-parser.git#15.0.1"
     typeorm: "npm:0.2.45"
     typescript: "npm:4.9.5"
     ulid: "npm:2.3.0"
@@ -9434,10 +9447,24 @@ __metadata:
   languageName: node
   linkType: hard
 
+"node-ensure@npm:^0.0.0":
+  version: 0.0.0
+  resolution: "node-ensure@npm:0.0.0"
+  checksum: 10c0/7af391aee024a8b7df77c239ed8b90417e3f2539824fa06b60f243ce14c75ee455766464c7c3ba9407d5b1e4d1d74ed5cf5f8af10c67b0fc05aa6e29f5d2462b
+  languageName: node
+  linkType: hard
+
 "node-fetch-native@npm:^1.4.0":
   version: 1.4.0
   resolution: "node-fetch-native@npm:1.4.0"
   checksum: 10c0/2ced63b4b4cef8d05e004c5489614811ae836ae17a07e548af7a29fb22c5ea2512ea24423720f1ac9b47787d701044321d4921e3da4fe8dbcc882a8f67a1d218
+  languageName: node
+  linkType: hard
+
+"node-fetch-native@npm:^1.6.1":
+  version: 1.6.4
+  resolution: "node-fetch-native@npm:1.6.4"
+  checksum: 10c0/78334dc6def5d1d95cfe87b33ac76c4833592c5eb84779ad2b0c23c689f9dd5d1cfc827035ada72d6b8b218f717798968c5a99aeff0a1a8bf06657e80592f9c3
   languageName: node
   linkType: hard
 
@@ -9776,6 +9803,13 @@ __metadata:
     define-properties: "npm:^1.2.0"
     es-abstract: "npm:^1.22.1"
   checksum: 10c0/e869d6a37fb7afdd0054dea49036d6ccebb84854a8848a093bbd1bc516f53e690bba88f0bc3e83fdfa74c601469ee6989c9b13359cda9604144c6e732fad3b6b
+  languageName: node
+  linkType: hard
+
+"ohash@npm:^1.1.3":
+  version: 1.1.3
+  resolution: "ohash@npm:1.1.3"
+  checksum: 10c0/928f5bdbd8cd73f90cf544c0533dbda8e0a42d9b8c7454ab89e64e4d11bc85f85242830b4e107426ce13dc4dd3013286f8f5e0c84abd8942a014b907d9692540
   languageName: node
   linkType: hard
 
@@ -10153,6 +10187,16 @@ __metadata:
   version: 1.1.1
   resolution: "pathe@npm:1.1.1"
   checksum: 10c0/3ae5a0529c3415d91c3ac9133f52cffea54a0dd46892fe059f4b80faf36fd207957d4594bdc87043b65d0761b1e5728f81f46bafff3b5302da4e2e48889b8c0e
+  languageName: node
+  linkType: hard
+
+"pdf-parse@npm:1.1.1":
+  version: 1.1.1
+  resolution: "pdf-parse@npm:1.1.1"
+  dependencies:
+    debug: "npm:^3.1.0"
+    node-ensure: "npm:^0.0.0"
+  checksum: 10c0/cba2b6ddfbfa73d94ff0cd342cbe8ef2ef0501863ada687eddf99487a4d06766e00fc44525c40cef3b01f04376cb99d5873ab789bd3e2379a28c3ae5377f3298
   languageName: node
   linkType: hard
 
@@ -12716,22 +12760,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"summaly@mei23/summaly#3.11.0":
-  version: 3.11.0
-  resolution: "summaly@https://github.com/mei23/summaly.git#commit=de7e264e5d9141cdf3b42b5b60874e4e630d1715"
+"summaly@mei23/summaly#3.13.0":
+  version: 3.13.0
+  resolution: "summaly@https://github.com/mei23/summaly.git#commit=db9600aa73d8747c0fd83f7e3da298273ec1fd3c"
   dependencies:
     cheerio: "npm:1.0.0-rc.12"
     escape-regexp: "npm:0.0.1"
     got: "npm:11.8.6"
-    h3: "npm:1.9.0"
+    h3: "npm:1.11.1"
     h3-typebox: "npm:0.6.0"
-    html-entities: "npm:2.4.0"
+    html-entities: "npm:2.5.2"
     iconv-lite: "npm:0.6.3"
     js-yaml: "npm:4.1.0"
     jschardet: "npm:3.0.0"
+    pdf-parse: "npm:1.1.1"
     private-ip: "npm:2.3.4"
-    typescript: "npm:5.3.3"
-  checksum: 10c0/f7d6fb1718ae6c435f5fb0cf5f94d1a2495d10724b97858288e0a382d0d3066c577e5a8efca3cbed2df6cabe22dd016195ebe54bda5b36074226cf22543ce60f
+    typescript: "npm:5.4.2"
+  checksum: 10c0/76b0ae7c731cfb978284237aa8a78c5faf78f92822692039bac47a3f05d397c4186ff2e9018c94d8bc6e5262450cb9ae5c71ecd08b0f588209aa9e6416aef551
   languageName: node
   linkType: hard
 
@@ -13399,13 +13444,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"twemoji-parser@git+https://github.com/mei23/twemoji-parser.git#15.0.1":
-  version: 15.0.1
-  resolution: "twemoji-parser@https://github.com/mei23/twemoji-parser.git#commit=d374b2f54efaf3ecf21948daecf851b69c9a7d62"
-  checksum: 10c0/82b111f663ad4e38260be761c9fce5fb4835e6e16170d59d8ba0785c17bd94296573daaf9304d9e6c33f678c578f3456a9b6bd5500ee3624fe367c75ea53e6a0
-  languageName: node
-  linkType: hard
-
 "type-check@npm:^0.4.0, type-check@npm:~0.4.0":
   version: 0.4.0
   resolution: "type-check@npm:0.4.0"
@@ -13593,13 +13631,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:5.3.3":
-  version: 5.3.3
-  resolution: "typescript@npm:5.3.3"
+"typescript@npm:5.4.2":
+  version: 5.4.2
+  resolution: "typescript@npm:5.4.2"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 10c0/e33cef99d82573624fc0f854a2980322714986bc35b9cb4d1ce736ed182aeab78e2cb32b385efa493b2a976ef52c53e20d6c6918312353a91850e2b76f1ea44f
+  checksum: 10c0/583ff68cafb0c076695f72d61df6feee71689568179fb0d3a4834dac343df6b6ed7cf7b6f6c801fa52d43cd1d324e2f2d8ae4497b09f9e6cfe3d80a6d6c9ca52
   languageName: node
   linkType: hard
 
@@ -13613,13 +13651,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@npm%3A5.3.3#optional!builtin<compat/typescript>":
-  version: 5.3.3
-  resolution: "typescript@patch:typescript@npm%3A5.3.3#optional!builtin<compat/typescript>::version=5.3.3&hash=e012d7"
+"typescript@patch:typescript@npm%3A5.4.2#optional!builtin<compat/typescript>":
+  version: 5.4.2
+  resolution: "typescript@patch:typescript@npm%3A5.4.2#optional!builtin<compat/typescript>::version=5.4.2&hash=5adc0c"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 10c0/1d0a5f4ce496c42caa9a30e659c467c5686eae15d54b027ee7866744952547f1be1262f2d40de911618c242b510029d51d43ff605dba8fb740ec85ca2d3f9500
+  checksum: 10c0/fcf6658073d07283910d9a0e04b1d5d0ebc822c04dbb7abdd74c3151c7aa92fcddbac7d799404e358197222006ccdc4c0db219d223d2ee4ccd9e2b01333b49be
   languageName: node
   linkType: hard
 
@@ -13630,10 +13668,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ufo@npm:^1.3.2":
-  version: 1.3.2
-  resolution: "ufo@npm:1.3.2"
-  checksum: 10c0/180f3dfcdf319b54fe0272780841c93cb08a024fc2ee5f95e63285c2a3c42d8b671cd3641e9a53aafccf100cf8466aa8c040ddfa0efea1fc1968c9bfb250a661
+"ufo@npm:^1.4.0":
+  version: 1.5.3
+  resolution: "ufo@npm:1.5.3"
+  checksum: 10c0/1df10702582aa74f4deac4486ecdfd660e74be057355f1afb6adfa14243476cf3d3acff734ccc3d0b74e9bfdefe91d578f3edbbb0a5b2430fe93cd672370e024
   languageName: node
   linkType: hard
 
@@ -13716,6 +13754,19 @@ __metadata:
     node-fetch-native: "npm:^1.4.0"
     pathe: "npm:^1.1.1"
   checksum: 10c0/38883e441f4d39cadcd6422cafdb482ade2f430f50110ff718717f61a7e0ca173c8ee3de13dcddeaff289bd44203d03d2ac39ae96b45058405ea4c43a3a7953e
+  languageName: node
+  linkType: hard
+
+"unenv@npm:^1.9.0":
+  version: 1.9.0
+  resolution: "unenv@npm:1.9.0"
+  dependencies:
+    consola: "npm:^3.2.3"
+    defu: "npm:^6.1.3"
+    mime: "npm:^3.0.0"
+    node-fetch-native: "npm:^1.6.1"
+    pathe: "npm:^1.1.1"
+  checksum: 10c0/d00012badc83731c07f08d5129c702c49c0212375eb3732b27aae89ace3c67162dbaea4496965676f18fc06b0ec445d91385e283f5fd3e4540dda8b0b5424f81
   languageName: node
   linkType: hard
 
